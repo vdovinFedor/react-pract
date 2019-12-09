@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #000000;
 }
 
 .App-logo {
@@ -7,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +17,49 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.-planet-mars-wallpaper-2600x1600-4k {
+  width: 1440px;
+  height: 259px;
+  object-fit: contain;
+  mix-blend-mode: luminosity;
+}
 
 .App-link {
   color: #09d3ac;
+}
+.Rover-container{
+  border: 4px double red;
+}
+.Curiosity-Rover {
+  width: 350px;
+  height: 122px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.87px;
+  color: #ffffff;
+}
+.img{
+  margin:10px;
+  width:500px;
+  height:400px
+}
+.With-its-rover-named {
+  width: 350px;
+  height: 286px;
+  position: absolute;
+  bottom: 70px;
+  left: 370px;
+  opacity: 0.6;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 1.24px;
+  color: #ffffff;
 }
