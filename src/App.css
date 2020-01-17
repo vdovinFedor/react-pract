@@ -44,8 +44,14 @@
 }
 .img{
   margin:10px;
-  width:500px;
-  height:400px
+  width:350px;
+  height:350px
+}
+.img:hover{
+  border: 1px solid deepskyblue;
+}
+.imgLast{
+  opacity: 0.5
 }
 .With-its-rover-named {
   width: 350px;
